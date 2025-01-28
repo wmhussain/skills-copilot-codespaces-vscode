@@ -4,7 +4,7 @@ const data = [
         { id: 2, name: 'Jane', age: 34 }
     ],
     [
-        { id: 3, name: 'Bob', age: 22 }
+        { id: 3, name: 'Bob', age: 22 },
         { id: 4, name: 'Alice', age: 29 }
     ]
 ];
