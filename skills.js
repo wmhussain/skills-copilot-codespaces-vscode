@@ -1,3 +1,13 @@
-function calculateNumbers(var1, var2) {
-  return var1 + var2;
+// function to covert Celsius
+// to Fahrenheit  
+function cToF(celsius)
+{
+  const cTemp = celsius;
+  const cToFahr = cTemp * 9 / 5 + 32;
+  const message = `${cTemp}\xB0C is ${cToFahr} \xB0F.`;
+    console.log(message);
 }
+
+// Driver code
+const celsius = 80;
+cToF(celsius);
